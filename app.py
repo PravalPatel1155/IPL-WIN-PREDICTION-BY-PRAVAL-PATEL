@@ -6,7 +6,7 @@ import pickle
 st.set_page_config(page_title="IPL Win Predictor", layout="centered")
 
 # Custom CSS to improve the look and feel
-st.markdown('''
+st.markdown(
     <style>
     .main {
         background-color: #f8f9fa;
@@ -26,7 +26,7 @@ st.markdown('''
         margin-top: 20px;
     }
     </style>
-    ''', unsafe_allow_html=True)
+    ( unsafe_allow_html=True)
 
 # Declaring the teams
 teams = ['Sunrisers Hyderabad', 'Mumbai Indians', 'Royal Challengers Bangalore', 
@@ -121,6 +121,7 @@ if st.button('Predict Probability'):
     })
     st.bar_chart(rates, x='Metric', y='Value', color="#ff4b4b")
     '''the end'''
+
 
 
 
