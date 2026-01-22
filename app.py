@@ -120,4 +120,6 @@ if st.button('Predict Probability'):
         'Value': [round(currentrunrate, 2), round(requiredrunrate, 2)]
     })
     st.bar_chart(rates, x='Metric', y='Value', color="#ff4b4b")
+    '''the end'''
+
 
